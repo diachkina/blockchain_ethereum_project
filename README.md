@@ -63,7 +63,7 @@ The goal of this project is to analyze the first transactions of new wallets in 
    - Data suggests some seasonality in the creation of new wallets.
 
 
-* The original size of the crypto-ethereum.transactions dataset was 650,000,000 rows. 
+'*' The original size of the crypto-ethereum.transactions dataset was 650,000,000 rows. 
 Out of those, the data I needed accounted for 25,000,000 rows. 
 A random sample of 1% was taken for the analysis, and then the first 20,000 rows were selected from it.
 
