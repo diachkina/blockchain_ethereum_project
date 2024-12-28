@@ -1,5 +1,11 @@
 ### **Blockchain Ethereum Analitic Project**
 
+## Resources
+
+You can access the data files here:
+[Google Drive Link]([https://drive.google.com/file/d/your-file-id/view](https://drive.google.com/drive/folders/1cIBZGCgxEp5DO4Y9tfp_EI8fi9JBoO8t?usp=sharing)
+
+
 #### **a. Task Formulation**
 **Business and Technical Goals**:
 The goal of this project is to analyze the first transactions of new wallets in the Ethereum network in 2023, identify key trends in their activity, transaction types, and categorize them. The analysis aims to provide insights into the behavior of new users and their contribution to blockchain operations.
