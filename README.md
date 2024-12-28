@@ -3,7 +3,7 @@
 ## Resources
 
 You can access the data files here:
-[Google Drive Link]([https://drive.google.com/file/d/your-file-id/view](https://drive.google.com/drive/folders/1cIBZGCgxEp5DO4Y9tfp_EI8fi9JBoO8t?usp=sharing)
+[Google Drive Link]([https://drive.google.com/file/d/your-file-id/view](https://drive.google.com/drive/folders/1cIBZGCgxEp5DO4Y9tfp_EI8fi9JBoO8t?usp=sharing))
 
 
 #### **a. Task Formulation**
