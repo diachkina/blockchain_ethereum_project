@@ -52,21 +52,7 @@ The goal of this project is to analyze the first transactions of new wallets in 
 
 ---
 
-#### **d. Results and Conclusions**
-1. **Analysis Results**:
-   - **Transaction Types**:
-     - 95.13% of first transactions by new wallets are incoming.
-   - **Transaction Value Distribution**:
-     - 38.36% of transactions have a zero value in ETH.
-     - Only 1.05% of transactions exceed 10 ETH.
-   - **Smart Contract Interactions**:
-     - 66% of zero-value transactions are unrelated to smart contracts (likely test actions or verification steps).
-     - 34% of zero-value transactions interact with smart contracts (e.g., approve, initialize).
 
-2. **Conclusions**:
-   - A significant portion of zero-value transactions may indicate testing activity by new users or automated processes (e.g., creating smart contracts).
-   - 73% of non-zero transactions are direct ETH transfers between addresses.
-   - Data suggests some seasonality in the creation of new wallets.
 
 
 '*' The original size of the crypto-ethereum.transactions dataset was 650,000,000 rows. 
