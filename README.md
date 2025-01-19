@@ -1,11 +1,17 @@
 # **Ethereum Transaction Analysis**
 
-This project analyzes Ethereum transactions, focusing on the behavior of newly created wallets, gas usage, and interactions with smart contracts in 2023. The study provides insights into transaction types, contract functionalities, and gas efficiency, highlighting key patterns and statistical differences.
+## This project analyzes Ethereum transactions, focusing on the behavior of newly created wallets, gas usage, and interactions with smart contracts in 2023. The study provides insights into transaction types, contract functionalities, and gas efficiency, highlighting key patterns and statistical differences.
 ---
-## Resources
+
+### Resources
 
 You can access the data files here:
 [Google Drive Link](https://drive.google.com/drive/folders/1cIBZGCgxEp5DO4Y9tfp_EI8fi9JBoO8t?usp=sharing)
+
+---
+
+[Tableau Dashboard](https://public.tableau.com/app/profile/tetiana.diachkina/viz/Book2_17372952521110/Dashboard1)
+
 ---
 
 ## **Table of Contents**
@@ -16,9 +22,6 @@ You can access the data files here:
 5. [Methodology](#methodology)
 6. [Key Findings](#key-findings)
 7. [Installation](#installation)
-8. [Usage](#usage)
-9. [Contributing](#contributing)
-10. [License](#license)
 
 ---
 
@@ -146,7 +149,6 @@ The goal of this project is to analyze the first transactions of new wallets in 
    
 2. **Description**:
    - The BigQuery table contains the first outgoing transactions of new wallets, where the wallet address is the `from_address`.
-   - Data obtained via the Etherscan API includes both outgoing and incoming transactions for the same addresses.
 
 ---
 
@@ -171,13 +173,10 @@ The goal of this project is to analyze the first transactions of new wallets in 
 4. **Tools**:
    - **Python**: For data collection (`pandas`, `requests` libraries).
    - **BigQuery**: For SQL queries to prepare the base table.
-   - **Visualization**: Used `matplotlib` to create charts and graphs.
+   - **Visualization**: Used `matplotlib`, `seaborn` to create charts and graphs.
+   - **Interactive Visualization**: Used `Tableau`.
 
 ---
-
-
-
-
 
 To verify the adequacy of the sample, the number of nulls and zero-value transactions were calculated. 
 The values matched within a margin of error of 0.5%.
