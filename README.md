@@ -89,7 +89,7 @@ Columns include:
    - Queried Ethereum transaction data from Google BigQuery.
    - Filtered transactions to include only **first outgoing transactions** from new wallets.
    - Verified the adequacy of the sample by calculating the number of nulls and zero-value transactions. The values matched within a margin of error of 0.5%.
-   - All SQL queries used for data extraction and verification are saved in the [`queries.txt`](./queries.txt) file in this repository.
+   - All SQL queries used for data extraction and verification are saved in the [`BigQueryQueries.md`](./BigQueryQueries.md) file in this repository.
 
 2. **Data Processing**:
    - Converted `value` from Wei to ETH.
